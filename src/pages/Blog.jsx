@@ -1,9 +1,13 @@
-import React from 'react'
+import Header from "../components/Header";
+import "../css/styles.css";
 
 export default function Blog() {
   return (
     <>
-    <h1>BLOG</h1>
+      <Header />
+      <div className="wrapper-title">
+        <h2>BLOG DE WILSON</h2>
+      </div>
     </>
-  )
+  );
 }

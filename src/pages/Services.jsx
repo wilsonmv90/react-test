@@ -1,8 +1,14 @@
-import React from 'react'
+import Header from "../components/Header";
+import "../css/styles.css";
 
 export default function Services() {
   return (
-    <div>Services</div>
+    <>
+    <Header />
+    <div className="wrapper-title">
+      <h2>SERVICES DE WILSON</h2>
+    </div>
+  </>
   )
 }
 
