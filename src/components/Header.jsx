@@ -1,7 +1,5 @@
-import React from "react";
 import Navbar from "./Navbar";
 import logo from "../assets/logo-super.png";
-
 
 export default function Header() {
   return (

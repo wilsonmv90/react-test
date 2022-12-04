@@ -28,13 +28,12 @@ body {
   background: rgb(255, 255, 255);
 }
 
-
 /* HEADER */
 .header {
   background: var(--primary-color);
   background-color: #ffe500;
-  width: 100vw;
   height: 100px;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -52,7 +51,7 @@ body {
   max-width: 119px;
   height: 3.75rem;
   margin: 6px 0;
-}
+} 
 
 /* NAV */
 .navbar {
@@ -87,8 +86,6 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  margin-left: 83px;
-  margin-right: 83px;
   justify-content: space-between;
   margin-top: 200px;
 }
@@ -206,8 +203,6 @@ aside {
   letter-spacing: 1px;
 }
 
-
-
 .wrapper-title h2 {
   display: flex;
   justify-content: center;
@@ -215,4 +210,3 @@ aside {
   font-size: 60px;
   height: 100vh;
 }
-
